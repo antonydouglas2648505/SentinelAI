@@ -1,0 +1,22 @@
+{
+    "model": "RoBERTa Augmented",
+    "baseline_model": "D:\\Documents\\Visual_Studio_2022\\Code_Snippets\\AML\\SentinelAI\\backend\\models\\roberta",
+    "augmentation_samples": 30,
+    "original_training_samples": 11089,
+    "combined_training_samples": 11119,
+    "validation_samples": 2101,
+    "learning_rate": 1e-05,
+    "epochs": 1,
+    "training_time_seconds": 1684.7533059120178,
+    "validation_results": {
+        "eval_loss": 0.1611367166042328,
+        "eval_accuracy": 0.9776297001427892,
+        "eval_precision": 0.997029702970297,
+        "eval_recall": 0.9581351094196003,
+        "eval_f1": 0.9771955361475012,
+        "eval_runtime": 28.6056,
+        "eval_samples_per_second": 73.447,
+        "eval_steps_per_second": 9.194,
+        "epoch": 1.0
+    }
+}

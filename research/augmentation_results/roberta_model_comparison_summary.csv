@@ -1,0 +1,5 @@
+Dataset,Model,Accuracy,Precision,Recall,F1,False Positive Rate
+Prompt Injection,Original RoBERTa,0.88,0.8333333333333334,1.0,0.9090909090909091,0.3
+Prompt Injection,Augmented RoBERTa,0.96,0.9375,1.0,0.967741935483871,0.1
+Contextual,Original RoBERTa,0.9142857142857143,0.8333333333333334,1.0,0.9090909090909091,0.15
+Contextual,Augmented RoBERTa,1.0,1.0,1.0,1.0,0.0

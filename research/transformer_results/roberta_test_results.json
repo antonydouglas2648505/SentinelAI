@@ -1,0 +1,8 @@
+{
+    "model": "RoBERTa",
+    "accuracy": 0.96573060447406,
+    "precision": 0.9738625363020329,
+    "recall": 0.9571836346336822,
+    "f1_score": 0.9654510556621881,
+    "training_time_seconds": 6466.015658855438
+}

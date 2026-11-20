@@ -1,0 +1,9 @@
+category,samples,accuracy,false_positives,false_negatives
+ai_safety_research,5,1.0,0,0
+data_exfiltration,2,1.0,0,0
+indirect_injection,5,1.0,0,0
+paraphrased_injection,5,1.0,0,0
+quoted_attack,5,0.4,3,0
+security_discussion,5,1.0,0,0
+technical_documentation,5,0.8,1,0
+tool_manipulation,3,1.0,0,0

@@ -1,0 +1,8 @@
+Metric,Value
+Total Samples,15291.0
+Benign Samples,8403.0
+Malicious Samples,6888.0
+Duplicate Prompts,158.0
+Missing Values,0.0
+Average Text Length,60.09809691975672
+Average Word Count,9.410241318422601

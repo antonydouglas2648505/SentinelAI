@@ -1,0 +1,8 @@
+{
+    "training_samples": 11089,
+    "validation_samples": 2101,
+    "testing_samples": 2101,
+    "word_features": 20000,
+    "character_features": 10000,
+    "total_features": 30000
+}

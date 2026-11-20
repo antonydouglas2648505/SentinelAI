@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Machine learning model artifacts
+backend/models/*/
+backend/models/**/*.pt
+backend/models/**/*.bin
+backend/models/**/*.safetensors
+backend/models/**/*.pth
+backend/models/**/*.onnx
+backend/models/**/*.pkl
+
+# Training checkpoints
+**/checkpoint-*/
+
+# Large processed datasets
+backend/data/processed/*.npz
+backend/data/processed/*.npy
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and editor
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+temp/
+tmp/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Original and processed dataset splits
+backend/data/raw/train.csv
+backend/data/raw/test.csv
+backend/data/raw/validation.csv
+backend/data/processed/train_processed.csv
+backend/data/processed/test_processed.csv
+backend/data/processed/validation_processed.csv
+
+# Raw datasets (kept locally)
+backend/data/raw/
